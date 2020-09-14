@@ -1,3 +1,14 @@
+
+
+
+
+
+![API_project_book](/API_PROJECT_CABECERA.png)
+
+
+
+
+
 # apis-project
 
 Para realizar este proyecto he trabajado con un dataset de libros de Kaggle.com.
@@ -10,6 +21,10 @@ El archivo parece que está en buenas condiciones, pero al abrirlo encontramos e
 En data_set_cleaning veo cómo subsanarlos y llevo a cabo un análisis más exhaustivo de las columnas y datos para entender mejor la información.
 
 Este dataset cuenta con cerca de 12000 referencias clasificadas por título, autor, fecha de publicación y puntuación media, además del número de páginas y reviews.
+
+Uno de los escollos que encuentro al analizar esta información es la forma en la que aparecen las fechas, como objeto.
+Para poder acceder a la información a través de los años de publicación de las obras, es necesario limpiar esta columna y convertir los distintos objetos en int64, para poder utilizarlos fácilmente cuando quiera filtrar el dataset.
+
 
 
 ## Creación de main.py con argparse
