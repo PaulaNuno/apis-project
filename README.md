@@ -18,7 +18,7 @@ https://www.kaggle.com/jealousleopard/goodreadsbooks
 
 Los datos obtenidos están muy bien estructurados. 
 El archivo parece que está en buenas condiciones, pero al abrirlo encontramos errores.
-En [data_set_cleaning] (PaulaNuno/apis-project/blob/master/data_set_cleaning.ipynb) veo cómo subsanarlos y llevo a cabo un análisis más exhaustivo de las columnas y datos para entender mejor la información.
+En <a href="data_set_cleaning.ipynb">data_set_cleaing</a> veo cómo subsanarlos y llevo a cabo un análisis más exhaustivo de las columnas y datos para entender mejor la información.
 
 Este dataset cuenta con cerca de 12000 referencias clasificadas por título, autor, fecha de publicación y puntuación media, además del número de páginas y reviews.
 
