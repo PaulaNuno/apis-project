@@ -3,7 +3,7 @@
 
 
 
-![API_project_book](/API_PROJECT_CABECERA.png)
+![API_project_book](input/API_PROJECT_CABECERA.png)
 
 
 
