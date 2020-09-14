@@ -2,7 +2,6 @@
 
 Para realizar este proyecto he trabajado con un dataset de libros de Kaggle.com.
 https://www.kaggle.com/jealousleopard/goodreadsbooks
-https://www.youtube.com/watch?v=bJ5K7IERMRE
 
 ## Elección de dataset
 
@@ -13,13 +12,13 @@ En data_set_cleaning veo cómo subsanarlos y llevo a cabo un análisis más exha
 Este dataset cuenta con cerca de 12000 referencias clasificadas por título, autor, fecha de publicación y puntuación media, además del número de páginas y reviews.
 
 
-
 ## Creación de main.py con argparse
 
 
 ## Filtrado de dataset con el script generado en main.py
 
-## Enriquecimiento del dataset con información externa
+
+##  Web scraping para enriquecer el dataset con información externa
 
 https://thegreatestbooks.org/
 
@@ -29,3 +28,39 @@ En este site utilizan un algoritmo para crear esta lista maestra basada en la ca
 
 Esta información es de gran interés para cotejarla con el dataset extraído de Kaggle y hacer una comparación entre los mejor valorados y las métricas puestas de manifiesto en la data obtenida previamente.
 
+Para realizar el scrapeo de esta página analizamos la estructura de la información relevante para nuestro objetivo.
+
+La URL base es https://thegreatestbooks.org/ y los parámetros de la query en este caso, están relacionados con la paginación del contenido. Ejemplo: ?page=2
+
+Con esta información sobre las URL, probamos a cambiar los parámetros de la URL y vemos que las distintas páginas cargan correctamente y muestran el contenido que queremos obtener.
+
+Una vez comprobado el comportamiento de la URL, analizo la estructura de la página en cuestión para conocer de qué manera se estructura la información en el HTML y accedo a través de la consola de Chrome para explorar el DOM.
+
+Explorado el DOM, vemos que la información que queremos extraer está contenida debajo de la etiqueta h4.
+
+En este fragmento aparece el contenido concerniente al primer libro de la lista.
+De ahí queremos extraer la posición, 1 en este caso, el título de la obra y el autor.
+Toda la lista de libros se esctructura de este modo a lo largo de las distintas páginas del site.
+
+      <h4>
+            1
+. <a href="/items/225">In Search of Lost Time </a> by <a href="/authors/4798">Marcel Proust</a>
+        </h4> 
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
