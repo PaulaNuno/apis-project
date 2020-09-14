@@ -9,16 +9,18 @@
 
 
 
-# apis-project
+# API-project
 
-Para realizar este proyecto he trabajado con un dataset de libros de Kaggle.com.
-https://www.kaggle.com/jealousleopard/goodreadsbooks
+En este proyecto tenemos que enriquecer un dataset que elijamos con información externa que obtengamos de un site (API, tećnicas de scrapeo). Además, plantearemos mediante el método Argparse, un script que nos ayude a filtrar dicho dataset.
+Por otro lado, plantearemos un resumen de estadísticas y, finalmente, exportaremos la información obtenida.
+
+Para realizar este proyecto he seleccionado <a href="https://www.kaggle.com/jealousleopard/goodreadsbooks">un dataset de libros</a> de Kaggle.com.
 
 ## Elección de dataset
 
 Los datos obtenidos están muy bien estructurados. 
 El archivo parece que está en buenas condiciones, pero al abrirlo encontramos errores.
-En <a href="data_set_cleaning.ipynb">data_set_cleaing</a> veo cómo subsanarlos y llevo a cabo un análisis más exhaustivo de las columnas y datos para entender mejor la información.
+En <a href="data_set_cleaning.ipynb">data_set_cleaning</a> veo cómo subsanarlos y llevo a cabo un análisis más exhaustivo de las columnas y datos para entender mejor la información.
 
 Este dataset cuenta con cerca de 12000 referencias clasificadas por título, autor, fecha de publicación y puntuación media, además del número de páginas y reviews.
 
