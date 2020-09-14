@@ -18,14 +18,14 @@ Para realizar este proyecto he seleccionado <a href="https://www.kaggle.com/jeal
 
 ## Elección de dataset
 
-Los datos obtenidos están muy bien estructurados. 
+Los datos obtenidos están muy bien estructurados y, en principio, limpios.
 El archivo parece que está en buenas condiciones, pero al abrirlo encontramos errores.
 En <a href="data_set_cleaning.ipynb">data_set_cleaning</a> veo cómo subsanarlos y llevo a cabo un análisis más exhaustivo de las columnas y datos para entender mejor la información.
 
 Este dataset cuenta con cerca de 12000 referencias clasificadas por título, autor, fecha de publicación y puntuación media, además del número de páginas y reviews.
 
-Uno de los escollos que encuentro al analizar esta información es la forma en la que aparecen las fechas, como objeto.
-Para poder acceder a la información a través de los años de publicación de las obras, es necesario limpiar esta columna y convertir los distintos objetos en int64, para poder utilizarlos fácilmente cuando quiera filtrar el dataset.
+Uno de los escollos que encuentro al analizar esta información es la forma en la que aparecen las fechas.
+Para poder acceder a la información a través de los años de publicación de las obras, es necesario limpiar esta columna y convertir las fechas en años para poder utilizarlos posteriormente cuando vaya a filtrar el dataset.
 
 
 
