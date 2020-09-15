@@ -32,7 +32,7 @@ Para poder acceder a la información a través de los años de publicación de l
 
 ## Creación de main.py con argparse y filtrado de dataset
 
-Para la creación del <a href="main.py">script main.py</a>me basé en el average rating de los títulos.
+Para la creación del <a href="main.py">script main.py</a> me basé en el average rating de los títulos.
 El objetivo es que al introducir la valoración que deseamos obtener, el programa devuelva los títulos y sus correspondientes autores dentro de esa media.
 
 ##  Web scraping para enriquecer el dataset con información externa
@@ -62,7 +62,8 @@ Toda la lista de libros se esctructura de este modo a lo largo de las distintas 
         </h4> 
         
         
-        
+Para obtener esta información utilicé el módulo Beautiful Soup. 
+En el archivo <a href="web_scraping_procedure.ipynb">web_scraping_procedure</a> intenté llevar a cabo la extracción de datos que me interesaban. 
         
         
         
