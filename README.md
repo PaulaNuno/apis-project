@@ -64,9 +64,13 @@ Toda la lista de libros se esctructura de este modo a lo largo de las distintas 
         
 Para obtener esta información utilicé el módulo Beautiful Soup. 
 En el archivo <a href="web_scraping_procedure.ipynb">web_scraping_procedure</a> intenté llevar a cabo la extracción de datos que me interesaban. 
+
+##  Resumen de los datos del dataset
+
+Para observar los principales datos del dataset de Goodreads 
+
         
-        
-        
+![Top_10_books](input/top_10_books.jpg)      
         
         
         
