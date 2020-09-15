@@ -67,7 +67,7 @@ En el archivo <a href="web_scraping_procedure.ipynb">web_scraping_procedure</a> 
 
 ##  Resumen de los datos del dataset
 
-Para observar los principales datos del dataset de Goodreads 
+Para visualizar los datos del dataset de Goodreads que consideré relevantes, en el <a href="reports.py">archivo de reports</a> estuve trabajando sobre la información para intentar plasmar el análisis de manera gráfica.
 
         
 ![Top_10_books](input/top_10_books.jpg)      
